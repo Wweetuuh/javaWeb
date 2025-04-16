@@ -1,14 +1,21 @@
+# Build and IDE
 /target/
-.idea/
-.vscode/
-.settings
-.project
-.classpath
-
+/.idea/
 *.iml
-.DS_Store
 
-# The following files are generated/updated by vaadin-maven-plugin
-node_modules/
-src/main/frontend/generated/
-vite.generated.ts
+# Node/Vaadin
+/node_modules/
+/frontend/node_modules/
+/frontend/generated/
+/VAADIN/
+
+# OS/system
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database (H2)
+*.mv.db
+*.h2.db

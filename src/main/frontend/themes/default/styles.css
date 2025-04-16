@@ -1,0 +1,21 @@
+html {
+    --lumo-primary-color: hsl(214, 90%, 52%);
+    --lumo-primary-color: #10B981;
+    --lumo-base-color: #f9fafb;
+    --lumo-font-family: 'Segoe UI', Candara, 'Bitstream Vera Sans', 'DejaVu Sans', 'Bitstream Vera Sans', 'Trebuchet MS', Verdana, 'Verdana Ref', sans-serif;
+    --lumo-font-size-m: 1rem;
+    --lumo-font-size-l: 1.25rem;
+    --lumo-border-radius-m: 0.375rem;
+    --lumo-space-m: 1.5rem;
+}
+
+body {
+    color: #333;
+}
+
+h1 {
+    color: var(--lumo-primary-color);
+    border-bottom: 1px solid var(--lumo-contrast-10pct);
+    padding-bottom: var(--lumo-space-xs);
+}
+
